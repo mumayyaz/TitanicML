@@ -50,6 +50,7 @@ train.sort_values('Age',ascending=False).head(4)
 # In[178]:
 
 
+train = train.fillna(value={'Age': 30 })
 test = test.fillna(value={'Age': 30 })
 
 
